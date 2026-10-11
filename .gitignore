@@ -1,0 +1,10 @@
+# Raw and cleaned data (re-create with download_data.py and clean_data.py)
+data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Excel lock files
+~$*
