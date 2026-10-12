@@ -9,6 +9,9 @@ Data: [City of Toronto Open Data – TTC Subway Delay Data](https://open.toronto
 ```
 pip install -r requirements.txt
 python download_data.py
+python clean_data.py
 ```
 
 This downloads the 2024 and 2025-onward delay files plus the delay code descriptions into `data/raw/`.
+
+`clean_data.py` removes duplicates, fixes inconsistent line and station names, adds the delay code descriptions and flags 0 minute and very long delays. The cleaned file goes to `data/clean/`.
