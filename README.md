@@ -4,6 +4,8 @@ Analyzing TTC subway delay incidents from the City of Toronto's open data, to fi
 
 Data: [City of Toronto Open Data – TTC Subway Delay Data](https://open.toronto.ca/dataset/ttc-subway-delay-data/)
 
+![Excel dashboard](output/dashboard.png)
+
 ## Setup
 
 ```
