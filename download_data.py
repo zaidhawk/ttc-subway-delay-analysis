@@ -1,7 +1,5 @@
 """
-Step 0: Download the raw TTC subway delay files from Toronto Open Data.
-
-Run:  python download_data.py
+Downloads the TTC subway delay files from Toronto Open Data into data/raw/.
 """
 from pathlib import Path
 from urllib.request import urlretrieve
